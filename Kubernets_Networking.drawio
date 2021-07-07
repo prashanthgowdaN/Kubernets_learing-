@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T18:02:58.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.4" etag="usAaV-Hx7Fgaw2NcVJi5" type="github"><diagram id="dAwGA29zOsbbogj9E4SK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-07T18:24:04.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="cX-2T1w60DaeqwocHCug" version="14.8.4" type="github">
+  <diagram id="dAwGA29zOsbbogj9E4SK" name="Page-1">
+    <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-8" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-1120" width="630" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="327" y="-960" width="193" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-10" value="10.244.0.3" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-12" value="POD" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="565" y="-796" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-13" value="Container Runtime (Docker Instance)&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-908.5" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X9A-DsUdeVipmmyV4sCb-14" target="X9A-DsUdeVipmmyV4sCb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-14" value="Node IP -- 192.168.1.2" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-1120" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.587;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X9A-DsUdeVipmmyV4sCb-15" target="X9A-DsUdeVipmmyV4sCb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X9A-DsUdeVipmmyV4sCb-15" target="X9A-DsUdeVipmmyV4sCb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-15" value="&lt;br&gt;Private Subnet When we configure will&lt;br&gt;be assigned to Pods&amp;nbsp;&lt;br&gt;10.244.0.0/16" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-1060" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-958" width="196" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;gradientColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-960" width="196" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-21" value="10.244.0.2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="158" y="-958" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-22" value="10.244.0.4" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-958" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-23" value="POD" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-796" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-24" value="POD" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-788" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-26" value="POD" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-788" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-27" value="Container Runtime (Docker Instance)&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="573" y="-910.5" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="X9A-DsUdeVipmmyV4sCb-28" value="Container Runtime (Docker Instance)&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="-908.5" width="97" height="97" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
